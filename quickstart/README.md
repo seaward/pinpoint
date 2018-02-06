@@ -40,11 +40,11 @@ The following script downloads HBase standalone from [Apache download site](http
 
 ### Start Pinpoint Daemons
 
-**Collector** - Run `quickstart/bin/start-collector.sh`
+**Collector** - Run `quickstart/bin/start-collector.sh` [`quickstart/bin/quickstart.cmd collector start`]
 
 **TestApp** - Run `quickstart/bin/start-testapp.sh`
 
-**Web UI** - Run `quickstart/bin/start-web.sh`
+**Web UI** - Run `quickstart/bin/start-web.sh` [`quickstart/bin/quickstart.cmd collector web`]
 
 
 Once the startup scripts are completed, the last 10 lines of the Tomcat log are tailed to the console:
